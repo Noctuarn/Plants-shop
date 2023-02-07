@@ -41,6 +41,14 @@
         & img{
             width:20px;
             height:20px;
+            cursor: pointer;
+            transition: all .8s ease 0s;
+
+            @media (min-width: 770px) {
+                  &:hover{
+                        transform: scale(1.1);
+                  }
+            }
         }
     }
 }

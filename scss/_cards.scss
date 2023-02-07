@@ -1,0 +1,48 @@
+.cards {
+    margin-top: 142px;
+
+    &__elements {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__element {
+        max-width: 268px;
+        padding: 22px 16px;
+        border: 1px solid #E0E0E0;
+        cursor: pointer;
+        transition: all 1s ease 0s;
+        
+        @media (min-width: 770px) {
+              &:hover{
+                    transform: scale(1.2);        
+              }
+        }
+    }
+}
+.element-cards {
+
+    &__logo {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 16px;
+        max-width: 201px;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        color: $dark-green;
+    }
+
+    &__text {
+        font-size: 10px;
+        line-height: 1.6;
+        color: $grey;
+    }
+}
+

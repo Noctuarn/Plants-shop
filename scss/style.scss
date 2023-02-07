@@ -28,6 +28,10 @@ a{
     margin: 0 auto;
 }
 
+[class *= "page__"]{
+    margin-bottom: 80px;
+}
+
 .body{
     width: 100%;
 }
@@ -70,3 +74,4 @@ a{
 }
 
 @import "header";
+@import "cards";
