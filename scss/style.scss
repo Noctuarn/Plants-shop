@@ -1,0 +1,72 @@
+@import 'fonts';
+
+$dark-green: #156963;
+$grey: #2C1500;
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+[class*= "__container"]{
+    margin: 0 15px;
+    max-width: 1198px;
+    margin: 0 auto;
+}
+
+.body{
+    width: 100%;
+}
+
+
+.wrapper{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    border: none;
+    width: 111px;
+    cursor: pointer;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+
+    &_green {
+        background-color: $dark-green;
+        color: white;
+    }
+}
+
+@import "header";

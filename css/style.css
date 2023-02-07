@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:regular,500);
+@import url(https://fonts.googleapis.com/css?family=Nunito:700,900);
+@import url(https://fonts.googleapis.com/css?family=Poppins:500);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+[class*=__container] {
+  margin: 0 15px;
+  max-width: 1198px;
+  margin: 0 auto;
+}
+
+.body {
+  width: 100%;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 36px;
+  border: none;
+  width: 111px;
+  cursor: pointer;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+}
+.btn_green {
+  background-color: #156963;
+  color: white;
+}
+
+.header {
+  height: 740px;
+}
+.header__container {
+  position: relative;
+}
+.header__wrapper {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 40px;
+  left: 0;
+}
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 36px;
+}
+.header__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6.01%;
+  width: 100%;
+}
+
+.nav__elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  margin-right: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.sign-up-btn {
+  color: #156963;
+  background-color: transparent;
+}
+
+.body-header__image img {
+  min-width: 500px;
+  width: 100%;
+}
+.body-header__textblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 583px;
+  margin-top: 186px;
+}
+
+.textblock-header__title {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 1.22;
+  color: #156963;
+}
+.textblock-header__text {
+  color: #2C1500;
+  font-size: 18px;
+  line-height: 1.77;
+  max-width: 493px;
+  opacity: 70%;
+  margin-bottom: 110px;
+}
+.textblock-header__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 586px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item-header__btn {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.item-header__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.21;
+  display: inline;
+}
+
+#prev {
+  width: 213px;
+}
+#prev h5 {
+  color: #333333;
+  background: url("../img/header/image/prev-arrow.svg") left no-repeat;
+  padding-left: 40px;
+}
+#prev h4 {
+  color: #156963;
+}
+
+#next {
+  background-color: #156963;
+  padding: 39px 48px;
+  width: 320px;
+}
+#next h5 {
+  max-width: 97px;
+  color: #F2F2F2;
+  background: url("../img/header/image/next-arrow.svg") right no-repeat;
+  padding-right: 40px;
+}
+#next h4 {
+  color: white;
+}
