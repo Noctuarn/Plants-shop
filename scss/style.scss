@@ -41,7 +41,7 @@ a{
     overflow: hidden;
     position: relative;
     width: 100%;
-    max-width: 1280px;
+    // max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -70,8 +70,21 @@ a{
     &_green {
         background-color: $dark-green;
         color: white;
+        transition: all .4s ease 0s;
+        border: 3px solid #156963;
+        
+        @media (min-width: 770px) {
+              &:hover{
+                background-color: transparent;
+                color: #156963;
+              }
+        }
     }
 }
 
 @import "header";
 @import "cards";
+@import "plants";
+@import "relax";
+@import "favourite";
+@import "footer";

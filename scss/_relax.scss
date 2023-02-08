@@ -1,0 +1,36 @@
+.relax {
+
+    &__body {
+        display: flex;
+        gap: 84px;
+    }
+}
+.body-relax {
+
+    &__textblock {
+        color: $grey;
+    }
+
+    &__image {
+    }
+}
+.textblock-relax {
+
+    &__title {
+        font-size: 40px;
+        line-height: 1.4;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.75;
+        opacity: 80%;
+        max-width: 506px;
+        margin-bottom: 74px;
+    }
+
+    &__image {
+    }
+}

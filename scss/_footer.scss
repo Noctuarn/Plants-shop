@@ -1,0 +1,99 @@
+.footer {
+    border-top: 1px solid $dark-green;
+    padding: 60px 0px 71px 0px;
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+
+        & div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.body-footer {
+
+    &__main-block {
+        max-width: 282px;
+    }
+
+    &__title {
+        font-family: 'Work Sans';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    &__item {
+        font-family: 'Work Sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #000000;
+        cursor: pointer;
+    }
+}
+.main-block-footer {
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $dark-green;
+        cursor: pointer;
+        margin-bottom: 24px;
+    }
+    
+    &__subtitle {
+        font-family: 'Work Sans';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        color: #333333;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-family: 'Work Sans';
+        font-size: 13px;
+        line-height: 1.53;
+        color: #4F4F4F;
+    }
+}
+.email-footer {
+
+    &__input {
+        padding: 8px 13px;
+        border: 1px solid #F2F2F2;
+        width: 234px;
+        margin-bottom: 14px;
+        color:#000;
+        opacity: 50%;
+        font-family: 'Work Sans';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+
+
+        &:focus, &:active{
+           outline: none;
+        }
+    }
+
+    &__button {
+    }
+}
+
