@@ -9,14 +9,14 @@
     &__element {
         max-width: 268px;
         padding: 22px 16px;
-        border: 1px solid #E0E0E0;
+        outline: 1px solid #E0E0E0;
         cursor: pointer;
         transition: all 1s ease 0s;
         
         @media (min-width: 770px) {
               &:hover{
                     transform: scale(1.2);  
-                    border: 4px solid #E0E0E0;      
+                    outline: 4px solid #E0E0E0;      
               }
         }
     }
