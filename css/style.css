@@ -79,7 +79,6 @@ a {
   background-color: #156963;
   color: white;
   -webkit-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   border: 3px solid #156963;
 }
@@ -143,13 +142,11 @@ a {
   height: 20px;
   cursor: pointer;
   -webkit-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
 @media (min-width: 770px) {
   .nav__icons img:hover {
     -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
             transform: scale(1.1);
   }
 }
@@ -255,15 +252,15 @@ a {
   border: 1px solid #E0E0E0;
   cursor: pointer;
   -webkit-transition: all 1s ease 0s;
-  -o-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
 }
 @media (min-width: 770px) {
   .cards__element:hover {
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
             transform: scale(1.2);
     border: 4px solid #E0E0E0;
+    padding-bottom: 4px;
+    margin: -3px 0px;
   }
 }
 
@@ -344,14 +341,12 @@ a {
 }
 .element-plant__image img {
   -webkit-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   cursor: pointer;
 }
 @media (min-width: 770px) {
   .element-plant__image img:hover {
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
             transform: scale(1.2);
   }
 }
@@ -408,16 +403,13 @@ a {
 }
 .body-favourite__img img {
   -webkit-transform: translateY(40px);
-      -ms-transform: translateY(40px);
           transform: translateY(40px);
   -webkit-transition: all 1s ease 0s;
-  -o-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
 }
 @media (min-width: 770px) {
   .body-favourite__img img:hover {
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
             transform: translateY(0);
   }
 }
