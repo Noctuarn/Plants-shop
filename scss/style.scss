@@ -41,12 +41,15 @@ a{
     overflow: hidden;
     position: relative;
     width: 100%;
-    // max-width: 1280px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.outer-conteiner{
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    font-family: 'Montserrat';
-    font-weight: 400;
 }
 
 .logo{
