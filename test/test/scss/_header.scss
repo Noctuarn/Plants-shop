@@ -1,0 +1,144 @@
+.header {
+    height: 740px;
+
+    &__container {
+        position: relative;
+    }
+
+    &__wrapper{
+        width: 100%;
+        position: absolute;
+        z-index: 10;
+        top: 40px;
+        left: 0;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 36px;
+    }
+
+    &__body {
+        display: flex;
+        gap: 6.01%;
+        width: 100%;
+    }
+}
+.nav {
+
+    &__elements {
+        display: flex;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 40px;
+        margin-right: 8px;
+        align-items: center;
+
+        & img{
+            width:20px;
+            height:20px;
+            cursor: pointer;
+            transition: all .8s ease 0s;
+
+            @media (min-width: 770px) {
+                  &:hover{
+                        transform: scale(1.1);
+                  }
+            }
+        }
+    }
+}
+
+
+.sign-up-btn {
+    color: $dark-green;
+    background-color: transparent;
+}
+
+.body-header {
+
+    &__textblock {
+        display: flex;
+        flex-direction: column;
+        // width: 45.88px;
+        width: 583px;
+        margin-top: 186px;
+    }
+}
+.textblock-header {
+
+    &__title {
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 68px;
+        line-height: 1.22;
+        color:  $dark-green;
+    }
+
+    &__text {
+        color: $grey;
+        font-size: 18px;
+        line-height: 1.77;
+        max-width: 493px;
+        opacity: 70%;
+        margin-bottom: 110px;
+    }
+
+    &__slider {
+        display: flex;
+        width: 586px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.item-header {
+
+    &__btn {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.20;
+        margin-bottom: 12px;
+        cursor: pointer;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 1.21;
+        display: inline;
+    }
+}
+
+#prev{
+    width: 213px;
+    
+    & h5{        
+        color: #333333;
+        background: url('../img/header/image/prev-arrow.svg') left no-repeat;
+        padding-left: 40px;
+    }
+    
+    & h4{
+        color: $dark-green;
+    }
+}
+
+#next{
+    background-color: $dark-green;
+    padding: 39px 48px;
+    width: 320px;
+    
+    & h5{
+        max-width: 97px;
+        color: #F2F2F2;
+        background: url('../img/header/image/next-arrow.svg') right no-repeat;
+        padding-right: 40px;
+    }
+    & h4{
+        color: white;
+    }
+}
