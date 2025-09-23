@@ -1,0 +1,68 @@
+.plants {
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    &__filter {
+        padding: 8px 12px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+    }
+
+    &__body {
+        display: flex;
+        gap: 20px;
+        padding-top: 24px;
+        border-top: 2px solid #E0E0E0;
+    }
+}
+.element-plant {
+    text-align: center;
+    color: #000000;
+
+    &__image {
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 16px;
+
+        img{
+            transition: all .5s ease 0s;
+            cursor: pointer;
+
+            @media (min-width: 770px) {
+                  &:hover{
+                    transform: scale(1.2);
+                  }
+            }
+        }
+    }
+
+    &__title {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 8px;  
+        font-weight: 400;
+    }
+
+    &__price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
