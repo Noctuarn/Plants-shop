@@ -1,0 +1,47 @@
+.favourite {
+
+    &__body {
+        background-color: #F3F4F6;
+        display: flex;
+        padding-left: 97px;
+        gap: 6px;
+    }
+}
+.body-favourite {
+
+    &__textblock {
+        margin-top: 88px;
+        max-width: 585px;
+    }
+
+    &__img {
+        overflow: hidden;
+
+        img{
+            transform: translateY(40px);
+            transition: all 1s ease 0s;
+            
+            @media (min-width: 770px) {
+                &:hover{
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+}
+.textblock-favourite {
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.4;
+        color: $grey;
+    }
+
+    &__button {
+        width: 152px;
+        height: 40px;
+        margin-top: 42px;
+    }
+}
+
